@@ -12,7 +12,7 @@
 main {outline-color: black;}
 #content {
 background-color: lightseagreen;
-border-color: pink;}
+border: dotted 5px pink;}
 
 p { color: rgb(70, 1, 79);
 text-indent: 20px;
