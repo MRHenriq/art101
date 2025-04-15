@@ -4,11 +4,19 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
+    font-family: "comic sans";
     border: solid 1px #ff9d00;
     background-color: #d8c4dd;
 
   }
-::content 
-.section { background-color: lightseagreen;
+#content {
+background-color: lightseagreen;
 
 border-color: pink;}
+
+p { color: orange;
+text-indent: 20px;
+margin-left: 10px;
+font font-family: "comic sans";
+}
+
