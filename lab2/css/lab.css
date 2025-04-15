@@ -20,6 +20,8 @@ margin-left: 10px;
 font-family: "Courier";
 }
 
-h1 { color: navajowhite;
+h1, h2 { color: navajowhite;
 font-family: "Courier";}
+
+body { background-color: navajowhite;}
 
