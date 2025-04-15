@@ -10,17 +10,24 @@
   }
 
 #content {
-background-color: lightseagreen;
-border: dotted 5px pink;}
+    background-color: lightseagreen;
+    border: dotted 5px pink;
+   padding: 10px;
+  }
 
-p { color: rgb(70, 1, 79);
-text-indent: 20px;
-margin-left: 10px;
-font-family: "Courier";
-}
+p { 
+    color: rgb(70, 1, 79);
+    text-indent: 20px;
+    margin-left: 10px;
+    font-family: "Courier";
+  }
 
-h1, h2 { color: navajowhite;
-font-family: "Courier";}
+h1, h2 { 
+    color: navajowhite;
+    font-family: "Courier";
+  }
 
-body { background-color: navajowhite;}
+body { 
+    background-color: navajowhite;
+  }
 
