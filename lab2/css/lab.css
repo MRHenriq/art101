@@ -4,7 +4,7 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #ff9d00;
+    border: dotted 1px #ff9d00;
     background-color: #d8c4dd;
 
   }
@@ -12,7 +12,7 @@
 main {outline-color: black;}
 #content {
 background-color: lightseagreen;
-border: dotted 5px pink;}
+border: solid 5px pink;}
 
 p { color: rgb(70, 1, 79);
 text-indent: 20px;
