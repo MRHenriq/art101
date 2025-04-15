@@ -8,4 +8,7 @@
     background-color: #d8c4dd;
 
   }
-::content { background-color: lightseagreen;}
+::content 
+section { background-color: lightseagreen;
+
+border-color: pink;}
