@@ -1,13 +1,6 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: dotted 3px #ff9d00;
-    background-color: #d8c4dd;
-
-  }
 
 #content {
     background-color: lightseagreen;
@@ -22,7 +15,7 @@ p {
     font-family: "Courier";
   }
 
-h1, h2 { 
+h1 { 
     color: navajowhite;
     font-family: "Courier";
   }
