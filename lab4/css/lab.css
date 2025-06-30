@@ -14,9 +14,13 @@ p {
   font-family: "Courier";
 }
 
-h1, h2, h3, h4 { 
+h1, h2 { 
   color: navajowhite;
   font-family: "Courier";
+}
+
+h3, h4 {
+color:  pink;
 }
 h2 {text-indent: 60px;}
 body { 
@@ -25,9 +29,13 @@ body {
 
 ul {
   padding-left: 30px ;
+  color: rgb(70, 1, 79);
+  font-family: "Courier";
 }
 
 li {
   padding-left: 50px;
   list-style: none;
+  color: rgb(70, 1, 79);
+  font-family: "Courier";
 }
