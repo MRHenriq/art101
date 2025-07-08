@@ -11,7 +11,7 @@ color = "Silver";
 year = "2012";
 
 // Calculate
-Age = 2025 - year;
+age = 2025 - year;
 
 // Output
 document.writeln("Make: " + make + "<br>");
