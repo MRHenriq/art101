@@ -8,7 +8,7 @@
 make = "Toyota";
 model = "Camry";
 color = "Silver";
-year = 2012;
+year = "2012";
 
 // Calculate
 Age = 2025 - year;
