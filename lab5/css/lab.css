@@ -14,7 +14,7 @@ p {
   font-family: "Courier";
 }
 
-h1, h2, div, script { 
+h1, h2, { 
   color: navajowhite;
   font-family: "Courier";
 }
