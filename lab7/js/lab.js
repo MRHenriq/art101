@@ -10,17 +10,17 @@ function sortUserName() {
 
   // split string to array
     var nameArray = userName.split('');
-/*
+
   // sort the array
     var nameArraySort = nameArray.sort();
     console.log("nameArraySort =",nameArraySort);
-
+/*
   // join array back to a string 
    var nameSorted = nameArraySort.join('');
    console.log("nameSorted =", nameSorted);
 
    return nameSorted; */
-   return nameArray;
+   return nameArraySort;
 }
 
 // output
