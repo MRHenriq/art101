@@ -12,17 +12,17 @@ $(document).ready(function() {
   $("#results").append("<button id='button-results'>Make Special</button>");
 
 
-      $("#button-challenge").click(function(){
+  $("#button-challenge").click(function(){
 
-    // now add (or subtract) the "special" class to the section
+  // now add (or subtract) the "special" class to the section
     $("#challenge").toggleClass("special");
-      });
-
-      $("#button-problems").click(function(){
-      $("#problems").toggleClass("special");
-       });
-
-      $("#button-results").click(function(){
-      $("#results").toggleClass("special");
   });
+
+  $("#button-problems").click(function(){
+    $("#problems").toggleClass("special");
   });
+
+  $("#button-results").click(function(){
+    $("#results").toggleClass("special");
+  });
+});
