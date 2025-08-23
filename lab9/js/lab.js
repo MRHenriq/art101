@@ -1,26 +1,25 @@
 // Author: Marissa Henriquez <mrhenriq@ucsc.edu>
-// Date: Jul 8
+// Date: Aug 11
+
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+
+$("#results").append("<button id='button-results'>Make Special</button>");
 
 
-// Define Variables
-myTransport = ["car","walking"];
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#challenge").toggleClass("special");
+});
 
-//Create and Object for my main ride
-myMainRide = {
-  make : "Toyota",
-  model : "Camry",
-  color : "Silver",
-  year : 2012,
-  age : function() {
-    return 2025 - this.year;
-  }
+$("#button-problems").click(function(){
+    $("#problems").toggleClass("special");
+});
 
-}
-
-// Output
-document.writeln("Kinds of tranportation I use: ", myTransport, "</br>");
-
-
-document.writeln("My Main Ride: <pre>", 
-  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+$("#button-results").click(function(){
+    $("#results").toggleClass("special");
+});
 
