@@ -22,3 +22,10 @@ h2 {text-indent: 60px;}
 body { 
   background-color: navajowhite;
 }
+
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
