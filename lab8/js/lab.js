@@ -13,10 +13,10 @@ function addition(x) {
 console.log("Is 5 + 7 = 12?", addition(5));
 console.log("Is 14 + 7 = 21?", addition(14));
 
-array.map(addition); 
+var results = array.map(addition); 
 console.log("Test of addition to array:", results);
 
-array.map(function(x){ 
+var results = array.map(function(x){ 
   var results = x - 2; 
   return results; 
 })
