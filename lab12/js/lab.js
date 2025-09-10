@@ -1,26 +1,33 @@
 // Author: Marissa Henriquez <mrhenriq@ucsc.edu>
-// Date: Jul 8
+// Date: Sep 3
 
+function sortingHat(str){
+  length = str.length;
+  mod = length %4;
 
-// Define Variables
-myTransport = ["car","walking"];
-
-//Create and Object for my main ride
-myMainRide = {
-  make : "Toyota",
-  model : "Camry",
-  color : "Silver",
-  year : 2012,
-  age : function() {
-    return 2025 - this.year;
+  if(mod==0){
+    str="House of Soul: Known for wisdom, emotional intelligence, and a graceful attitude.";
+  } else if (mod==1){
+    str="House of R&B: Known for fierce loyalty, honesty, and a strong sense of radical justice."
+  } else if (mod==2) {
+    str="House of Jazz: Known for strength, incredible resilience and joy in the face of the unkown, and the will to make dreams reality."
+  } else if (mod==3){
+    str="House of Punk: Known for breaking rules, unconventionality, and a rebellios spirit."
   }
 
+  return str;
 }
 
-// Output
-document.writeln("Kinds of tranportation I use: ", myTransport, "</br>");
+  $(document).ready(function(){
+    //click listener for the button
+    $("#button").click(function(){
+      //gets the value of #input and assigns it to a variable name
+      const name =$("#input").val();
+      //runs sortingHat(name) and stores the result in a variable house
+      house = sortingHat(name);
+      //appends a new styled paragraph tp #output
+      $("#output").html('<div class="text"><p>The Gengre Sorter has sorted you into ' +house+ '</p></div>');
+    });
+  });
 
-
-document.writeln("My Main Ride: <pre>", 
-  JSON.stringify(myMainRide, null, '\t'), "</pre>");
 

@@ -1,26 +1,22 @@
 // Author: Marissa Henriquez <mrhenriq@ucsc.edu>
-// Date: Jul 8
+// Date: Sep 2
 
-
-// Define Variables
-myTransport = ["car","walking"];
-
-//Create and Object for my main ride
-myMainRide = {
-  make : "Toyota",
-  model : "Camry",
-  color : "Silver",
-  year : 2012,
-  age : function() {
-    return 2025 - this.year;
-  }
-
+// Sorts the characters of a string in alphabetical order.
+function sortString(inputString) {
+  // We have to convert our string to an array and back again to sort it
+  return inputString.split('').sort().join('');
 }
 
-// Output
-document.writeln("Kinds of tranportation I use: ", myTransport, "</br>");
+// click listener for button
+$("#submit").click(function(){
+  // get value of input field
+  const userName = $("#user-name").val();
+  // now let's sort it
+  userNameSorted = sortString(userName);
+  // append a new div to our output div
+  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+});
 
 
-document.writeln("My Main Ride: <pre>", 
-  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
 
