@@ -1,5 +1,5 @@
 // Author: Marissa Henriquez <mrhenriq@ucsc.edu>
-// Date: Sep 3
+// Date: Sep 8
 
 function sortingHat(str){
   length = str.length;
